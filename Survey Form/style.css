@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(45deg, #184e68, #57ca85);
+    font-family: 'Alef', sans-serif;
+    color:white;
+    align-content: center;
+    text-align: center !important;
+}
+
+#titulo{
+    text-shadow: 10px 5px hsla(251, 74%, 15%, 0.226);
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    background-color: white;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px 10px 150px;
+    margin: 0 15% 0 15%;
+    border: white double 10px;
+    border-radius: 10%;
+}
+
+#number{
+    margin: 0 30% 0 30%;
+}
+
+#dropdown{
+    margin: 0 30% 0 30%;
+}
+
+#obs{
+    margin: 0 auto;
+}
+
+@media (max-width: 800px){
+    #survey-form{
+        padding: 0 20px 10px 20px;
+        margin: 0 15% 0 15%;
+    }
+
+    #obs{
+        width: 120px;
+    }
+}
+
+#submit{
+    font-size: 20px;
+    border-radius: 50%;
+    border: black solid;
+    width: 80px;
+    height: 50px;
+    box-shadow: 10px 5px black; /*Adicionar sombra*/
+}
+
+#submit:hover{ /*Alterar a forma do botão ao passar o mouse por cima*/
+    font-size: 25px;
+    width: 90px;
+    height: 60px;
+    border: blue dotted;
+}
+
+#botao{
+    align-content: center; /*Alinhando o botão dentro da div*/
+}
+
+footer{
+    text-align: right;
+}

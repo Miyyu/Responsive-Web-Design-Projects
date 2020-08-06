@@ -1,0 +1,107 @@
+@media (min-width: 600px){ /*Layout para PC*/
+    #navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 300px;
+        border-right: black solid;
+        text-align: center;
+        padding-top: 20px;
+        background: linear-gradient(120deg, blue, yellow);
+    } 
+    
+    #navbar ul {
+        height: 88%;
+        padding: 10px;        
+    }
+    
+    #navbar li {
+        color: black;
+        border-top: 1px solid;
+        list-style: none;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 23px;
+    }
+
+    #navbar a{
+        display: block;
+    }
+
+    #main-doc{
+        margin-left: 310px;
+    }
+    
+}
+
+#navbar{
+    height: 100%;
+    font-size: large;
+    text-align: center;
+    box-shadow: 10px 10px 5px black;
+    padding-bottom: 20px;
+    background: linear-gradient(120deg, blue, yellow);
+    color: white;
+
+}
+
+#navbar header{
+    font-size: 30px;
+    font-family: 'Bungee', cursive; 
+}
+
+
+#navbar a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul{
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+#navbar li{
+    margin-top: 10px;
+    border: black dotted;
+    
+}
+
+#navbar li:hover{
+    background-color: white;    
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;     
+}
+
+.main-section{
+    border-bottom: black dotted;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+code{
+    font-size: 15px;
+}
+
+.compilador{
+    background-color: gainsboro;
+        
+}
+
+header{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;         
+}
+
+footer{
+    text-align: right;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}

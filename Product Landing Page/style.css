@@ -1,0 +1,127 @@
+@media (max-width: 600px) { /*forma com que o layout se comporta dado um determinado tamanho de tela*/
+    #nav-bar{
+        flex-direction: column;
+        margin: 0 30px 0 10px;
+    }
+    .nav-link{
+        font-size: smaller;
+    }
+    #header-img{
+        width: 45%;
+    } 
+
+              
+}
+#rodape{
+    position: sticky;
+    background-color: rgba(255, 230, 236);
+    text-align: right;
+    font-size: 20px;
+}
+
+#header{
+    background-color: white;
+    box-shadow: 10px 5px 40px 0.5px rgb(255, 230, 236);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    position: fixed;  
+    top:0;
+    left:0;
+    right:0;
+                             
+}
+
+#header-img{
+    height: 100%;
+}
+
+#logo{
+    position: relative;
+    
+}
+
+#nav-bar{
+    display: flex;
+    margin: 0 60px 0 10px;                                
+    
+}   
+
+.nav-link{
+    margin: 0 15px 0 15px;
+} 
+
+
+a{
+    text-decoration: none;
+    color: black;
+} 
+
+a:hover{
+    text-decoration: underline;
+}       
+
+#div-video{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    box-shadow: 10px 15px black;
+    border-radius: 40px;
+}
+
+body{
+    background: url(https://www.pontofrio-imagens.com.br/decoracao/papeldeparede/15408882/1120213322/papel-de-parede-little-bandits-138935-poa-cinza-e-branco-holandes-15408882.jpg);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 25px;
+}
+
+#corpo{    
+    margin-top: 80px;
+}
+
+.precos{
+    min-height: 100px;
+    border: 5px dotted black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+    background-color: white;                               
+}
+
+#preco1:hover{
+    font-size: 35px;
+}
+
+#preco2:hover{
+    font-size: 35px;
+}
+
+#preco3:hover{
+    font-size: 35px;
+}
+
+h1{
+    font-size: 45px;
+    line-height: 2px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#email{
+    width: 30%;
+    height: 25px;
+}
+
+#submit{
+    font-size: 20px;
+    border-radius: 50%;
+    border: black solid;
+    width: 80px;
+    height: 50px;
+    box-shadow: 10px 5px black; /*Adicionar sombra*/
+}

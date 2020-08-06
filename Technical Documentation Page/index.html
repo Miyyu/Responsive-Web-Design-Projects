@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+<html>
+    <head>
+        <title>Technical Documentation Page</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav id="navbar">
+            <header>Documentação Python</header>
+            <ul>
+                <li><a href="#Python" class="nav-link">Python</a></li>
+                <li><a href="#Programas_mais_curtos" class="nav-link">Programas mais curtos</a></li>
+                <li><a href="#O_interpretador_de_Python" class="nav-link">O interpretador de Python</a></li>
+                <li><a href="#Números" class="nav-link">Números</a></li>
+                <li><a href="#String" class="nav-link">String</a></li>
+                <li><a href="#Comandos_if" class="nav-link">Comandos if</a></li>
+                <li><a href="#Comandos_for" class="nav-link">Comandos for</a></li>
+                <li><a href="#A_função_range()" class="nav-link">A função range()</a></li>
+                <li><a href="#Definindo_funções" class="nav-link">Definindo funções</a></li>
+            </ul>            
+        </nav>
+
+        <main id="main-doc">            
+            <section class="main-section" id="Python">
+                <header>Python</header>
+                <article>
+                    <p>Python é uma linguagem fácil de aprender e poderosa. Ela tem estruturas de dados de alto nível eficientes e uma abordagem simples mas efetiva de programação orientada a objetos.</p>
+                    <p>A elegância de sintaxe e a tipagem dinâmica do Python aliadas com sua natureza interpretativa, o fazem a linguagem ideal para programas e desenvolvimento de aplicações rápidas em diversas áreas e na maioria das plataformas.
+
+                        O interpretador Python e a extensiva biblioteca padrão estão disponíveis gratuitamente em código ou na forma binária para toda as maiores plataformas no endereço eletrônico do Python, <a href="https://www.python.org/" target="_blank">https://www.python.org/</a> , e pode ser livremente distribuído. O mesmo endereço contém distribuições de diversos módulos, programas e ferramentas gratuitos produzidos por terceiros e documentação adicional.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Programas_mais_curtos">
+                <header>Programas mais curtos</header>
+                <article>
+                    <p>Python permite a escrita de programas compactos e legíveis. Programas escritos em Python são tipicamente mais curtos do que seus equivalentes em C, C++ ou Java, por diversas razões:</p>
+                    <ul>
+                        <li>os tipos de alto nível permitem que você expresse operações complexas em um único comando;</li>
+                        <li>a definição de bloco é feita por indentação ao invés de marcadores de início e fim de bloco;</li>
+                        <li>não há necessidade de declaração de variáveis ou parâmetros formais.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="main-section" id="O_interpretador_de_Python">
+                <header>O interpretador de Python</header>
+                <article>
+                    <p>O interpretador Python é frequentemente instalado como /usr/local/bin/python3.8 nas máquinas onde está disponível; adicionando /usr/local/bin ao caminho de busca da shell de seu Unix torna-se possível iniciá-lo digitando o comando:</p>
+                    <ul>
+                        <li>python3.8</li>
+                    </ul>
+                    <p>no shell.</p>
+                    <p>Considerando que a escolha do diretório onde o interpretador está é uma opção de instalação, outros locais são possíveis; verifique com seu guru local de Python ou administrador do sistema local. (Por exemplo, /usr/local/python é um local alternativo popular.)</p>
+                    <p>Em máquinas Windows onde você instalou Python a partir da Microsoft Store, o comando python3.8 estará disponível. Se você tem o lançador py.exe instalado, você pode usar o comando py. Veja Excursus: Configurando variáveis de ambiente para outras maneiras de executar o Python.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Números">
+                <header>Números</header>
+                <article>
+                    <p>O interpretador funciona como uma calculadora bem simples: você pode digitar uma expressão e o resultado será apresentado. A sintaxe de expressões é a usual: operadores +, -, * e / funcionam da mesma forma que em outras linguagens tradicionais (por exemplo, Pascal ou C); parênteses (()) podem ser usados para agrupar expressões. Por exemplo:</p>
+                    <span></span>
+                    <div class="compilador">
+                        <span class="carac-maior">&gt;&gt;&gt;</span>
+                        <span class="valor">10</span>
+                        <span class="operador">+</span>
+                        <span class="valor">5</span>
+                        <br>
+                        <span class="resultado">15</span>
+                        <br>
+                        <span class="carac-maior">&gt;&gt;&gt;</span>
+                        <span class="valor">10</span>
+                        <span class="operador">-</span>
+                        <span class="valor">5</span>
+                        <br>
+                        <span class="resultado">5</span>
+                        <br>
+                        <span class="carac-maior">&gt;&gt;&gt;</span>
+                        <span class="valor">10</span>
+                        <span class="operador">*</span>
+                        <span class="valor">5</span>
+                        <br>
+                        <span class="resultado">50</span>
+                        <br>
+                        <span class="carac-maior">&gt;&gt;&gt;</span>
+                        <span class="valor">10</span>
+                        <span class="operador">/</span>
+                        <span class="valor">5</span>
+                        <br>
+                        <span class="resultado">2</span>
+                    </div>
+
+                    <p>Existem também outros operadores como:</p>
+                    <ul>
+                        <li><span class="operador">//</span>&nbsp;&nbsp;&rarr;Faz uma divisão pelo piso e recebe um inteiro como resultado (descartando a parte fracionária)</li>
+                        <li><span class="operador">%</span>&nbsp;&nbsp;&rarr;Calcula o o resto da divisão e retorna o seu valor</li>
+                    </ul>                    
+                </article>
+            </section>
+
+            <section class="main-section" id="String">
+                <header>String</header>
+                <article>
+                    <p>Além de números, Python também pode manipular strings (sequências de caracteres), que podem ser expressas de diversas formas. Elas podem ser delimitadas por aspas simples ('...') ou duplas ("...") e teremos o mesmo resultado.</p>
+                    <span></span>
+                    <div class="compilador">
+                        <span class="carac-maior">&gt;&gt;&gt;</span>
+                        <span class="texto-compilador">"Olá Mundo"</span>
+                        <br>
+                        <span class="resultado">Olá Mundo</span>
+                    </div>
+                    <p>Na interpretação interativa, a string de saída é delimitada com aspas e caracteres especiais são escapados com barras invertidas. Embora isso possa às vezes parecer diferente da entrada (as aspas podem mudar), as duas strings são equivalentes. A string é delimitada com aspas duplas se a string contiver uma única aspa simples e nenhuma aspa dupla, caso contrário, ela é delimitada com aspas simples. A função print() produz uma saída mais legível, ao omitir as aspas e ao imprimir caracteres escapados e especiais.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Comandos_if">
+                <header>Comandos if</header>
+                <article>
+                    <p>Provavelmente o mais conhecido comando de controle de fluxo é o if. Ele possui as palavras reservadas como:</p>
+                    <ul>
+                        <li>if</li>
+                        <li>elif</li>
+                        <li>else</li>
+                    </ul>
+
+                    <p> No exemplo a baixo, suponhamos que o usuário digite um número e deseja exibir uma informação na tela:</p>
+                    <div class="compilador">                        
+                        <code>if x &lt; 0:<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;print("O número é menor que 0")<br>
+                        elif x == 0:<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;print("O número é 0")<br>
+                        else:<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;print("O número é maior que 0")<br>
+                        </code>
+                    </div>
+
+                    <p>Dado uma determinada entrada, se o valor for menor do que zero, ele irá para o primeiro caso, printando que o número é menor que 0 e assim sucessivamente.</p>
+                    <p>A palavra-chave ‘elif’ é uma abreviação para ‘else if’, e é útil para evitar indentação excessiva. Uma sequência if … elif … elif … substitui os comandos switch ou case, encontrados em outras linguagens.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Comandos_for">
+                <header>Comandos for</header>
+                <article>
+                    <p>O comando for em Python é um pouco diferente do que costuma ser em C ou Pascal. Ao invés de sempre iterar sobre uma progressão aritmética de números (como no Pascal), ou permitir ao usuário definir o passo de iteração e a condição de parada (como C), o comando for do Python itera sobre os itens de qualquer sequência (seja uma lista ou uma string), na ordem que aparecem na sequência. Por exemplo:</p>
+                    <div class="compilador">
+                        <code>
+                            for items in numeros:<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;print(items)
+                        </code>
+                    </div>
+                </article>            
+            </section>
+
+            <section class="main-section" id="A_função_range()">
+                <header>A função range()</header>
+                <article>
+                    <p>Se você precisa iterar sobre sequências numéricas, a função embutida range() é a resposta. Ela gera progressões aritméticas:</p>
+                    <div class="compilador">
+                        <code>for i in range(5):<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+                        </code>
+                    </div>
+                    <p>Dado o range acima, os valores que serão impressos será os números de 0 a 4.</p>
+
+                    <p>Para iterar sobre os índices de uma sequência, combine range() e len() da seguinte forma:</p>
+                        <div class="compilador">
+                        <code>for i in range(len(items)):<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;print(i)
+                        </code>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="main-section" id="Definindo_funções">
+                <header>Definindo funções</header>
+
+                <article>
+                    <p>A palavra reservada def inicia a definição de uma função. Ela deve ser seguida do nome da função e da lista de parâmetros formais entre parênteses. Os comandos que formam o corpo da função começam na linha seguinte e devem ser indentados. Opcionalmente, a primeira linha do corpo da função pode ser uma literal string, cujo propósito é documentar a função. Se presente, essa string chama-se docstring. (Há mais informação sobre docstrings na seção Strings de documentação.) Existem ferramentas que utilizam docstrings para produzir automaticamente documentação online ou para imprimir, ou ainda, permitir que o usuário navegue interativamente pelo código. É uma boa prática incluir sempre docstrings em suas funções, portanto, tente fazer disso um hábito.</p>
+
+                    <div class="compilador">
+                        <code>def somar(x, y, z):<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return x + y + z
+                        </code>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </body>
+
+    <footer>GitHub: @Miyyu - 2020</footer>
+</html>

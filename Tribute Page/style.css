@@ -1,0 +1,51 @@
+#main{
+    background: url(https://img3.stockfresh.com/files/p/popaukropa/m/65/7367993_stock-vector-handwritten-text-vintage-style-seamless-pattern-abstract-ancien.jpg); /*Adicionar link com a URL*/
+}
+
+#div-title{
+    background-color: hsl(45, 55%, 96%);
+    margin: 0;
+    border-radius: 30px;
+}
+
+#title{
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+    text-align: center;                           
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+#image{
+    display: block;
+    max-width: 100%;                
+    box-shadow: 0 10px 20px black;
+}
+
+#img-caption{
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    background-color: hsl(45, 55%, 96%);
+    margin: 10px 30px 10px 30px;
+}
+
+#tribute-info{
+    background-color: hsla(45, 55%, 96%, 0.9);
+    border-radius: 30px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 25px 5px 25px;
+}
+
+#rodape{
+    text-align: right;
+    background-color: hsla(45, 55%, 96%, 0.9);
+}

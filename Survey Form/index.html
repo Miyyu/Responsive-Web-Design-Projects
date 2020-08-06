@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
+
+<html>
+
+    <head>
+        <title>Survey Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="titulo">
+            <h1 id="title">Formulário para Vaga de Emprego</h1>
+
+            <p id="description">No formulário abaixo coloque seus dados para poder se candidatar a uma vaga de emprego.</p>
+        </div>
+
+        
+        <form id="survey-form">
+            <label for="name" id="name-label">Digite seu nome</label>
+            <input type="text" id="name" placeholder="Nome completo" required>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+            <label for="number"id="number-label">Idade</label>
+            <input type="number" min="18" max="55" id="number" placeholder="Idade" required>
+            <br>
+
+            <label for="dropdown">Qual cidade deseja trabalhar?</label>
+            <select id="dropdown">
+                <option value="saoPaulo">São Paulo</option>
+                <option value="rio">Rio de Janeiro</option>
+                <option value="recife">Recife</option>
+                <option value="manaus">Manaus</option>
+                <option value="curitiba">Curitiba</option>
+                <option value="brasilia">Brasília</option>
+            </select>
+            <br>
+
+            <p>Em qual perído deseja trabalhar?</p>
+            <label for="manha">
+                <input id="manha" type="radio" name="periodo" value="manha" checked>Manhã
+            </label>
+            <label for="tarde">
+                <input id="tarde" type="radio" name="periodo" value="tarde">Tarde
+            </label>
+            <br>
+
+            <p>Quais linguagem de programação você domina?</p>
+            <div id="linguagem">
+                <label for="check1">
+                    <input type="checkbox" name="check1" value="c">C/C#/C++
+                </label>
+                <label for="check2">
+                    <input type="checkbox" name="check2" value="python">Python
+                </label>   
+                <label for="check3">
+                    <input type="checkbox" name="check3" value="java">Java/Javascript
+                </label>  
+                <label for="check4">
+                    <input type="checkbox" class="linguagem" name="check1" value="css">CSS
+                </label>   
+                <label for="check5">
+                    <input type="checkbox" class="linguagem" name="check1" value="dart">Dart
+                </label>  
+                <label for="check6">
+                    <input type="checkbox" class="linguagem" name="check1" value="php">PHP
+                </label> 
+                <label for="check1">
+                    <input type="checkbox" class="linguagem" name="check1" value="sql">SQL
+                </label> 
+            </div>
+            <br>
+            
+            <label for="obs">Observações</label>
+            <textarea name="obs" id="obs" cols="40" rows="5"></textarea>
+            <br>
+
+            <div id=botao>
+                <button type="submit" id="submit">Enviar</button>
+            </div>            
+            
+        </form>
+
+    </body>
+
+    <footer>GitHub: Miyyu - 2020</footer>
+
+</html>

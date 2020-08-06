@@ -1,0 +1,143 @@
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    right: 6px;
+    border: black solid 6px;
+    box-shadow: 10px 9px black;
+    background-color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Special Elite', cursive;
+    font-size: larger;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+li span{
+    opacity: 0;
+}
+
+li:hover span{
+    opacity: 1;
+}
+
+body{
+    background: url(https://i.pinimg.com/564x/62/2c/5f/622c5ffd329d9b2443b71ed0399a5d24.jpg);
+    background-attachment: fixed; /*Background fixo*/
+    margin-left: 0;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+    border: black solid;
+}
+
+#welcome-section h1{
+    font-family: 'Mansalva', cursive;
+    font-size: 60px;
+    color: black;
+    
+}
+
+#welcome-section h2{
+    font-family: 'Special Elite', cursive;
+}
+
+#projects{
+    margin: 20px 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: black solid 10px;
+    background-color: white;
+    box-shadow: 10px 9px black;
+    font-family: 'Mansalva', cursive;
+}
+
+.box-solto{
+    margin: 5px 60px 10px 60px;
+    border: dashed 10px black;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+}
+
+@media (max-width: 500px){
+    #navbar{
+        height: 60px;
+    }
+    ul{
+        justify-content: space-around;
+        align-items: center;
+        margin: 5px auto;
+    }
+    .box-solto{
+        margin: 5px 40px 10px 40px;
+        font-size: small;
+    }
+    #projects a{
+        font-size: smaller;
+    } 
+}
+
+.project-tile span{
+    opacity: 0;
+}
+
+.project-tile h2:hover span{
+    opacity: 1;
+}
+
+.img-logo{
+    height: 100px;
+    width: 80px;
+}
+
+#projects a{
+    text-decoration: none;
+    color: black;
+}
+
+#contato{
+    margin: 20px 90px 0 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;   
+    text-align: center;
+    background-color: white;
+    border: black solid 10px;
+    box-shadow: 10px 9px black;
+    
+}
+
+#contato img{
+    height: 70px;
+    width: 70px;
+}
+
+footer{
+    color: white; 
+    text-shadow: -1px -1px white, 1px 1px #333;
+    margin-top: 15px;
+    font-family: 'Special Elite', cursive;
+    text-align: right;
+}
